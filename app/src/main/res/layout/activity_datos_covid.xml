@@ -7,17 +7,20 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+
+
+
+
+
     <TextView
         android:id="@+id/responseText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <androidx.cardview.widget.CardView
             android:layout_width="291dp"
             android:layout_height="wrap_content"
@@ -30,90 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Bolivia"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="15dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="C:"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/bolCasosTextView"
-                        android:layout_width="15dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="TextView" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="15dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="R:" />
-
-                    <TextView
-                        android:id="@+id/bolrectextView"
-                        android:layout_width="15dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="TextView" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="23dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="15dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="F:" />
-
-                    <TextView
-                        android:id="@+id/bolmuertestextView"
-                        android:layout_width="15dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="TextView" />
-                </LinearLayout>
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="291dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:elevation="10dp"
-            app:cardCornerRadius="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -128,15 +48,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="30dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="C:"
+                        android:text="Confirmados:"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/sczCasosTextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -148,14 +68,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="30dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="R:" />
+                        android:text="Recuperados:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/sczrectextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -167,14 +88,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="30dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="F:" />
+                        android:text="Fallecidos:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/sczmuertestextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -185,7 +107,99 @@
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
 
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="291dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:elevation="10dp"-->
+<!--            app:cardCornerRadius="10dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="20dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Bolivia"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="20dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="Confirmados:"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/bolCasosTextView"-->
+<!--                        android:layout_width="8dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="TextView" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="20dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="Recuperados:"-->
+<!--                        android:textStyle="bold"/>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/bolrectextView"-->
+<!--                        android:layout_width="8dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="TextView" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="23dp"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="20dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="Fallecidos:"-->
+<!--                        android:textStyle="bold"/>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/bolmuertestextView"-->
+<!--                        android:layout_width="8dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="TextView" />-->
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+
+<!--    </LinearLayout>-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -203,7 +217,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -218,15 +232,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="C:"
+                        android:text="Confirmados:"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/cbCasosTextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -238,14 +252,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="R:" />
+                        android:text="Recuperados:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/cbrectextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -257,14 +272,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="F:" />
+                        android:text="Fallecidos:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/cbmuertestextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -286,7 +302,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -301,15 +317,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="C:"
+                        android:text="Confirmados:"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/lpCasosTextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -321,15 +337,16 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="R:" />
+                        android:text="Recuperados:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/lprectextView"
-                        android:layout_width="15dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -340,17 +357,19 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="F:" />
+                        android:text="Fallecidos:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/lpmuertestextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        />
                 </LinearLayout>
 
             </LinearLayout>
@@ -375,7 +394,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -390,15 +409,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="C:"
+                        android:text="Confirmados:"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/bnCasosTextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -410,14 +429,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="R:" />
+                        android:text="Recuperados:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/bnrectextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -429,14 +449,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="F:" />
+                        android:text="Fallecidos:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/bnmuertestextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -458,7 +479,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -473,15 +494,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="C:"
+                        android:text="Confirmados:"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/orCasosTextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -493,14 +514,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="R:" />
+                        android:text="Recuperados:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/orrectextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -512,14 +534,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="F:" />
+                        android:text="Fallecidos:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/ormuertestextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -547,7 +570,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -562,15 +585,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="C:"
+                        android:text="Confirmados:"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/scCasosTextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -582,14 +605,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="R:" />
+                        android:text="Recuperados:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/screctextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -601,14 +625,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="F:" />
+                        android:text="Fallecidos:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/scmuertestextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -630,7 +655,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -645,15 +670,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="C:"
+                        android:text="Confirmados:"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/tjCasosTextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -665,14 +690,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="R:" />
+                        android:text="Recuperados:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/tjrectextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -684,14 +710,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="F:" />
+                        android:text="Fallecidos:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/tjmuertestextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -719,12 +746,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Chuquisaca"
+                    android:text="Potosi"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
@@ -734,15 +761,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="C:"
+                        android:text="Confirmados:"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/chCasosTextView"
-                        android:layout_width="15dp"
+                        android:id="@+id/poCasosTextView"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -754,14 +781,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="R:" />
+                        android:text="Recuperados:"
+                        android:textStyle="bold"/>
 
                     <TextView
-                        android:id="@+id/chrectextView"
-                        android:layout_width="15dp"
+                        android:id="@+id/porectextView"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -773,15 +801,16 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="F:" />
+                        android:text="Fallecidos:"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/chmuertestextView"
-                        android:layout_width="15dp"
-                        android:layout_height="wrap_content"
+                        android:id="@+id/pomuertestextView"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -802,7 +831,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -817,15 +846,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="C:"
+                        android:text="Confirmados:"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/pnCasosTextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -837,14 +866,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="R:" />
+                        android:text="Recuperados:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/pnrectextView"
-                        android:layout_width="15dp"
+                        android:layout_width="5dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -856,15 +886,16 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="15dp"
+                        android:layout_width="35dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="F:" />
+                        android:text="Fallecidos:"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/pnmuertestextView"
-                        android:layout_width="15dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -874,5 +905,94 @@
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="291dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:elevation="10dp"-->
+<!--            app:cardCornerRadius="10dp">-->
 
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="20dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Santa Cruz"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="20dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="Confirmados:"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/sczCasosTextView"-->
+<!--                        android:layout_width="8dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="TextView" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="20dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="Recuperados:"-->
+<!--                        android:textStyle="bold"/>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/sczrectextView"-->
+<!--                        android:layout_width="8dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="TextView" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="23dp"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="20dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="Fallecidos:"-->
+<!--                        android:textStyle="bold"/>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/sczmuertestextView"-->
+<!--                        android:layout_width="8dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="TextView" />-->
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--    </LinearLayout>-->
 </LinearLayout>
