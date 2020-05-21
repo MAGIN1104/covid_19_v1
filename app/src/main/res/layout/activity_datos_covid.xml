@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -16,11 +18,11 @@
             android:orientation="vertical">
 
 
-<!--            <TextView-->
-<!--                android:id="@+id/responseText"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:textSize="50dp"/>-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/responseText"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:textSize="50dp"/>-->
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -76,8 +78,7 @@
                                 android:layout_weight="1"
                                 android:text="%C:"
                                 android:textAlignment="textEnd"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/bo_por_c_textView"
@@ -113,7 +114,7 @@
                                 android:layout_weight="1"
                                 android:text="%R:"
                                 android:textAlignment="textEnd"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/bo_por_r_textView"
@@ -149,7 +150,7 @@
                                 android:layout_weight="1"
                                 android:text="%F:"
                                 android:textAlignment="textEnd"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/bo_por_f_textView"
@@ -249,7 +250,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:text="Fallecidos:"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/cbmuertestextView"
@@ -335,15 +336,14 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:text="Fallecidos:"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/lpmuertestextView"
                                 android:layout_width="3dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView"
-                                />
+                                android:text="TextView" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -351,6 +351,7 @@
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -428,7 +429,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:text="Fallecidos:"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/bnmuertestextView"
@@ -514,7 +515,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:text="Fallecidos:"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/ormuertestextView"
@@ -529,6 +530,7 @@
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -606,7 +608,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:text="Fallecidos:"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/scmuertestextView"
@@ -692,7 +694,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:text="Fallecidos:"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/tjmuertestextView"
@@ -707,6 +709,7 @@
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -764,7 +767,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:text="Recuperados:"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/porectextView"
@@ -850,7 +853,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:text="Recuperados:"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/pnrectextView"
@@ -870,7 +873,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:text="Fallecidos:"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/pnmuertestextView"
