@@ -1,6 +1,7 @@
 package com.example.cov_19_autotest;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActionBar;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,6 +26,14 @@ import retrofit2.Response;
 
 public class DatosCovid extends AppCompatActivity {
     TextView responseText;
+    TextView fechaupdate;
+    //txtvw Bol
+    TextView boconfTextView;
+    TextView borecTextView;
+    TextView bomueTextView;
+    TextView bo_p_confTextView;
+    TextView bo_p_recTextView;
+    TextView bo_p_mueTextView;
     //txtvw LP
     TextView lpconfTextView;
     TextView lprecTextView;
@@ -66,7 +75,7 @@ public class DatosCovid extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_datos_covid);
 
-        responseText=(TextView)findViewById(R.id.responseText);
+        //responseText=(TextView)findViewById(R.id.responseText);
 
         getCountryCovidStats();
     }
@@ -91,6 +100,21 @@ public class DatosCovid extends AppCompatActivity {
                 Sc santaCruz = departamentos.getSc();
                 Tj tarija = departamentos.getTj();
 
+                //Jalamos datos BOLIVIA
+                boconfTextView = findViewById(R.id.boCasosTextView);
+                boconfTextView.setText(response.body().getContador().getConfirmados().toString());
+                borecTextView=findViewById(R.id.borectextView);
+                borecTextView.setText(response.body().getContador().getRecuperados().toString());
+                bomueTextView=findViewById(R.id.bomuertestextView);
+                bomueTextView.setText(response.body().getContador().getDecesos().toString());
+                bo_p_confTextView = findViewById(R.id.bo_por_c_textView);
+                bo_p_confTextView.setText(response.body().getPorcentaje().getConfirmados());
+                bo_p_recTextView=findViewById(R.id.bo_por_r_textView);
+                bo_p_recTextView.setText(response.body().getPorcentaje().getRecuperados());
+                bo_p_mueTextView=findViewById(R.id.bo_por_f_textView);
+                bo_p_mueTextView.setText(response.body().getPorcentaje().getDecesos());
+                fechaupdate=findViewById(R.id.fechaTextView);
+                fechaupdate.setText("ULTIMA ACTUALIZACION : "+fecha);
                 //Jalamos datos solo de lapaz
                 lpconfTextView = findViewById(R.id.lpCasosTextView);
                 lpconfTextView.setText(laPaz.getContador().getConfirmados().toString());
@@ -154,8 +178,8 @@ public class DatosCovid extends AppCompatActivity {
                 pnrecTextView.setText(pando.getContador().getRecuperados().toString());
                 pnmueTextView=findViewById(R.id.pnmuertestextView);
                 pnmueTextView.setText(pando.getContador().getDecesos().toString());
-                String boliviaCasos = "Casos totales en Bolivia: " + response.body().getTotal().toString();
-                responseText.setText(boliviaCasos);
+                //String boliviaCasos = "Casos confirmados en Bolivia: " + response.body().getContador().getConfirmados().toString();
+                //responseText.setText(boliviaCasos);
             }
 
             @Override
