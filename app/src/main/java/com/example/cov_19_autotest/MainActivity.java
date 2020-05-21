@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     @Override
     public void onClick(View v) {
-        Intent intentdata = new Intent(this, DatosCovid.class);
+        Intent intentdata = new Intent(this, Contactos.class);
         startActivity(intentdata);
     }
 }
