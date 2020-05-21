@@ -30,49 +30,14 @@ public class Contactos extends AppCompatActivity {
             { "Potosi","266224719" }
     };
     Adaptador list_adaptor;
-//    ArrayAdapter<String> list_adaptador;
-//    ArrayList<String> listaArray;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contactos);
         lista = (ListView)findViewById(R.id.lista);
-//        listaArray = new ArrayList<String>();
-//        list_adaptador = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,listaArray);
         list_adaptor = new Adaptador(this, datos);
         lista.setAdapter(list_adaptor);
-//        listaArray.add("800-101104");//ministerio de salud
-//        listaArray.add("33636300"); //santa cruz
-//        listaArray.add("2443885"); // la paz
-//        listaArray.add("2527701");// oruro
-//        listaArray.add("6454891"); //sucre
-//        listaArray.add("34621199"); //beni
-//        listaArray.add("38422286"); //pando
-//        listaArray.add("4221891"); //cochabamba
-//        listaArray.add("46643266"); //tarija
-//        listaArray.add("266224719"); //potosi
-//        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id)//clase anonima por defecto de android para que al presionar sobre alguno nos muestra ese contenido
-//            {
-//                try {
-//                    String phoneNumber = lista.getItemAtPosition(position)+"";
-//                    Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+phoneNumber));
-//
-//                    int result = checkCallingOrSelfPermission(Manifest.permission.CALL_PHONE);
-//                    if ( result == PackageManager.PERMISSION_GRANTED)
-//                    {
-//                        Toast.makeText(Contactos.this, "Acceso no autorizado", Toast.LENGTH_LONG).show();
-//                    }
-//                    else{
-//                        startActivity(intentCall);
-//                    }
-//                }catch (Exception ex)
-//                {
-//
-//                }
-//            }
-//        });
+
     }
 }
