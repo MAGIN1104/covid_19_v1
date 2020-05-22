@@ -25,7 +25,7 @@ public class Contactos extends AppCompatActivity {
             { "Sucre","6454891" },
             { "Beni","34621199" },
             { "Pando","38422286" },
-            { "Cochabamba","4221891" },
+            { "Cochabamba","4221891"},
             { "Tarija","46643266" },
             { "Potosi","266224719" }
     };
@@ -38,6 +38,5 @@ public class Contactos extends AppCompatActivity {
         lista = (ListView)findViewById(R.id.lista);
         list_adaptor = new Adaptador(this, datos);
         lista.setAdapter(list_adaptor);
-
     }
 }

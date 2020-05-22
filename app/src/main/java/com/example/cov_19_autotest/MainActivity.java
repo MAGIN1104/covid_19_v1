@@ -4,23 +4,44 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    Button btnDataCovid;
+public class MainActivity extends AppCompatActivity
+{
+    ImageButton op1,op2,op3,op4;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnDataCovid=findViewById(R.id.btnData);
-        //Asignamos el evento click
-        btnDataCovid.setOnClickListener(this);
     }
-    @Override
-    public void onClick(View v) {
-        Intent intentdata = new Intent(this, Contactos.class);
-        startActivity(intentdata);
+
+    public void Opcion1(View view)
+    {
+        Intent i1 = new Intent(this, DatosCovid.class);
+        startActivity(i1);
+
+    }
+    public  void Opcion2(View view)
+    {
+        Intent i2 = new Intent(this, Cuestionario_1.class);
+        startActivity(i2);
+
+
+    }
+    public void Opcion3(View view)
+    {
+        Intent i3 = new Intent(this, Recomendaciones.class);
+        startActivity(i3);
+
+
+    }
+    public void Opcion4(View view)
+    {
+        Intent i4 = new Intent(this, Contactos.class);
+        startActivity(i4);
+
     }
 }
+

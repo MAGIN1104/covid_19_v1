@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="390dp"
+        android:layout_height="55dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="finalizar"
+        android:text="Finalizar"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.900"
+        tools:ignore="OnClick" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="339dp"
+        android:layout_height="415dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:lines="@android:integer/config_longAnimTime"
+                android:text="Convulsiones"
+                android:buttonTint="@android:color/holo_blue_dark"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:textCursorDrawable="@color/colorPrimaryDark" />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:text="Escurrimiento nasal"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                android:textColorLink="@color/colorPrimaryDark" />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                android:text="Dolor de estomago" />
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                android:text="Escalofrios" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+                android:text="Dolor de garganta" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+                android:text="Malestar general" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                android:text="Vomito" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                android:text="diarrea (persistente)" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                android:text="irritabilidad" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                android:text="Dolor en el pecho" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                android:text="Tos(seca, sin flema)" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                android:text="Fiebre (mayor a 38 °C)" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+                android:text="Dificultad  para respirar"
+                android:textDirection="inherit" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                android:text="Dolor de cabeza" />
+
+            <TextView
+                android:id="@+id/PreguntaExtra"
+                android:layout_width="wrap_content"
+                android:layout_height="93dp"
+                android:text="¿Estuviste encontacto con alguien que haya sido diagniosticado con covid-19 en las ultimas dos semanas?" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/rbsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Si" />
+
+                <RadioButton
+                    android:id="@+id/rbno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+
+                <RadioButton
+                    android:id="@+id/rbnose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No se" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="219dp"
+        android:layout_height="130dp"
+        android:fontFamily="@font/aclonica"
+        android:text="En la ultima semana, ¿ha presentado alguno de los siguientes sintomas?"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/people"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
