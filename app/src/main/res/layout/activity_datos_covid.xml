@@ -10,984 +10,2138 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+<!-- BOLIVIA-->
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="8dp">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg6"
+                    android:orientation="vertical">
 
-            <!--            <TextView-->
-            <!--                android:id="@+id/responseText"-->
-            <!--                android:layout_width="wrap_content"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:textSize="50dp"/>-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textSize="24dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="BOLIVIA"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:id="@+id/fechaTextView"
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                               />
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Confirmados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Recuperados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fallecidos: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sospechosos: "/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_marginTop="35dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/bol">
+                            </ImageView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="24dp"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/boCasosTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/borectextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/bomuertestextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/bosostextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+<!--SANTA CRUZ-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            app:cardCornerRadius="8dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_height="match_parent"
+                android:background="@drawable/bg1"
+                android:orientation="vertical">
 
-                <androidx.cardview.widget.CardView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:elevation="10dp"
-                    app:cardBackgroundColor="#FFFFFF"
-                    app:cardCornerRadius="10dp">
-
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="horizontal">
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:padding="15dp">
-
+                        >
                         <TextView
+                            android:textSize="24dp"
+                            android:textColor="#ffff"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="BOLIVIA"
-                            android:textColor="#F44336"
-                            android:textSize="25sp"
-                            android:textStyle="bold" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="30dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Confirmados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/boCasosTextView"
-                                android:layout_width="4dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="1234" />
-
-                            <TextView
-                                android:id="@+id/textView"
-                                android:layout_width="20dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="%C:"
-                                android:textAlignment="textEnd"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/bo_por_c_textView"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="30dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Recuperados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/borectextView"
-                                android:layout_width="4dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="1234" />
-
-                            <TextView
-                                android:id="@+id/textView3"
-                                android:layout_width="20dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="%R:"
-                                android:textAlignment="textEnd"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/bo_por_r_textView"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="23dp"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="30dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Fallecidos:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/bomuertestextView"
-                                android:layout_width="4dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="1234" />
-
-                            <TextView
-                                android:id="@+id/textView5"
-                                android:layout_width="20dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="%F:"
-                                android:textAlignment="textEnd"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/bo_por_f_textView"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
+                            android:textStyle="bold"
+                            android:text="Santa Cruz"/>
                         <TextView
-                            android:id="@+id/fechaTextView"
-                            android:layout_width="match_parent"
+                            android:textSize="16dp"
+                            android:textColor="#ffff"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="TextView"
-                            android:textColor="#3F51B5" />
-
+                            android:text="Confirmados: "/>
+                        <TextView
+                            android:textSize="16dp"
+                            android:textColor="#ffff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Recuperados: "/>
+                        <TextView
+                            android:textSize="16dp"
+                            android:textColor="#ffff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fallecidos: "/>
+                        <TextView
+                            android:textSize="16dp"
+                            android:textColor="#ffff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sospechosos: "/>
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="291dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:elevation="10dp"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
+                    <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="COCHABAMBA"
-                            android:textColor="#3F51B5"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_alignParentRight="true"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/corona">
+                        </ImageView>
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
                             <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Confirmados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/cbCasosTextView"
-                                android:layout_width="3dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Recuperados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/cbrectextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="23dp"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Fallecidos:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/cbmuertestextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="291dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:elevation="10dp"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="LA PAZ"
-                            android:textColor="#3F51B5"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Confirmados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/lpCasosTextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Recuperados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/lprectextView"
-                                android:layout_width="3dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="23dp"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Fallecidos:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/lpmuertestextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="291dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:elevation="10dp"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="BENI"
-                            android:textColor="#3F51B5"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Confirmados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/bnCasosTextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Recuperados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/bnrectextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="23dp"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Fallecidos:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/bnmuertestextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="291dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:elevation="10dp"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="ORURO"
-                            android:textColor="#3F51B5"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Confirmados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/orCasosTextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Recuperados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/orrectextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="23dp"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Fallecidos:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/ormuertestextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="291dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:elevation="10dp"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="SUCRE"
-                            android:textColor="#3F51B5"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Confirmados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/scCasosTextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Recuperados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/screctextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="23dp"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Fallecidos:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/scmuertestextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="291dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:elevation="10dp"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="TARIJA"
-                            android:textColor="#3F51B5"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Confirmados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/tjCasosTextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Recuperados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/tjrectextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="23dp"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Fallecidos:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/tjmuertestextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="291dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:elevation="10dp"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="POTOSI"
-                            android:textColor="#3F51B5"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Confirmados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/poCasosTextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Recuperados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/porectextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="23dp"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Fallecidos:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/pomuertestextView"
-                                android:layout_width="3dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="291dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:elevation="10dp"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="PANDO"
-                            android:textColor="#3F51B5"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Confirmados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/pnCasosTextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Recuperados:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/pnrectextView"
-                                android:layout_width="3dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="23dp"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Fallecidos:"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/pnmuertestextView"
-                                android:layout_width="3dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="205dp"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:elevation="10dp"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp"
-                        android:textAlignment="center">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="SANTA CRUZ"
-                            android:textAlignment="center"
-                            android:textColor="#3F51B5"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="20dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Confirmados:"
-                                android:textStyle="bold" />
-
+                                android:textSize="24dp"/>
                             <TextView
                                 android:id="@+id/sczCasosTextView"
-                                android:layout_width="3dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
+                                android:textColor="#ffff"
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="20dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Recuperados:"
-                                android:textStyle="bold" />
-
+                                android:textSize="16dp"/>
                             <TextView
                                 android:id="@+id/sczrectextView"
-                                android:layout_width="3dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
-                        </LinearLayout>
+                                android:textColor="#ffff"
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="23dp"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="20dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="Fallecidos:"
-                                android:textStyle="bold" />
+                                android:textSize="16dp"/>
 
                             <TextView
                                 android:id="@+id/sczmuertestextView"
-                                android:layout_width="3dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="TextView" />
+                                android:textColor="#ffff"
+
+                                android:textSize="16dp"/>
+                            <TextView
+                                android:id="@+id/sczsostextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#ffff"
+
+                                android:textSize="16dp"/>
+
                         </LinearLayout>
 
-                    </LinearLayout>
+                    </RelativeLayout>
 
-                </androidx.cardview.widget.CardView>
-
+                </LinearLayout>
             </LinearLayout>
+        </androidx.cardview.widget.CardView>
+<!--COCHA-->
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg2"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textSize="24dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cochabamba"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Confirmados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Recuperados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fallecidos: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sospechosos: "/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/corona">
+                            </ImageView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="24dp"/>
+                                <TextView
+                                    android:id="@+id/cbCasosTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/cbrectextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/cbmuertestextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/cbsostextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+<!-- LA PAZ           -->
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg3"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textSize="24dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="La Paz"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Confirmados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Recuperados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fallecidos: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sospechosos: "/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/corona">
+                            </ImageView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="24dp"/>
+                                <TextView
+                                    android:id="@+id/lpCasosTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/lprectextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/lpmuertestextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/lpsostextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+<!-- BENI           -->
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg4"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textSize="24dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Beni"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Confirmados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Recuperados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fallecidos: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sospechosos: "/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/corona">
+                            </ImageView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="24dp"/>
+                                <TextView
+                                    android:id="@+id/bnCasosTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/bnrectextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/bnmuertestextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/bnsostextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+<!--PANDO            -->
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg5"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textSize="24dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pando"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Confirmados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Recuperados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fallecidos: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sospechosos: "/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/corona">
+                            </ImageView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="24dp"/>
+                                <TextView
+                                    android:id="@+id/pnCasosTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/pnrectextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/pnmuertestextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/pnsostextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+<!-- ORURO           -->
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textSize="24dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Oruro"
+                                android:textStyle="bold"/>
+                            <TextView
+
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Confirmados: "/>
+                            <TextView
+
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Recuperados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fallecidos: "/>
+                            <TextView
+
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sospechosos: "/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/corona">
+                            </ImageView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="24dp"/>
+                                <TextView
+                                    android:id="@+id/orCasosTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/orrectextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/ormuertestextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/orsostextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+<!--CHUQUISACA            -->
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg2"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textSize="24dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Chuquisaca"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Confirmados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Recuperados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fallecidos: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sospechosos: "/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/corona">
+                            </ImageView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="24dp"/>
+                                <TextView
+                                    android:id="@+id/scCasosTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/screctextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/scmuertestextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/scsostextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+<!--TARIJA            -->
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg3"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textSize="24dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tarija"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Confirmados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Recuperados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fallecidos: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sospechosos: "/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/corona">
+                            </ImageView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="24dp"/>
+                                <TextView
+                                    android:id="@+id/tjCasosTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/tjrectextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/tjmuertestextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/tjsostextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+<!--POTOSI            -->
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg4"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textSize="24dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Potosi"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Confirmados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Recuperados: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fallecidos: "/>
+                            <TextView
+                                android:textSize="16dp"
+                                android:textColor="#ffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sospechosos: "/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/corona">
+                            </ImageView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="24dp"/>
+                                <TextView
+                                    android:id="@+id/poCasosTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/porectextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/pomuertestextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:id="@+id/posostextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#ffff"
+
+                                    android:textSize="16dp"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
 
-        </LinearLayout>
 
 
+
+
+
+
+
+
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical">-->
+        <!--            -->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <androidx.cardview.widget.CardView-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:elevation="10dp"-->
+        <!--                    app:cardBackgroundColor="#FFFFFF"-->
+        <!--                    app:cardCornerRadius="10dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="match_parent"-->
+        <!--                        android:orientation="vertical"-->
+        <!--                        android:padding="15dp">-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="BOLIVIA"-->
+        <!--                            android:textColor="#F44336"-->
+        <!--                            android:textSize="25sp"-->
+        <!--                            android:textStyle="bold" />-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="match_parent"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="30dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Confirmados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/boCasosTextView"-->
+        <!--                                android:layout_width="4dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="1234" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/textView"-->
+        <!--                                android:layout_width="20dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="%C:"-->
+        <!--                                android:textAlignment="textEnd"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/bo_por_c_textView"-->
+        <!--                                android:layout_width="wrap_content"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="30dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Recuperados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/borectextView"-->
+        <!--                                android:layout_width="4dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="1234" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/textView3"-->
+        <!--                                android:layout_width="20dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="%R:"-->
+        <!--                                android:textAlignment="textEnd"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/bo_por_r_textView"-->
+        <!--                                android:layout_width="wrap_content"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="23dp"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="30dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Fallecidos:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/bomuertestextView"-->
+        <!--                                android:layout_width="4dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="1234" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/textView5"-->
+        <!--                                android:layout_width="20dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="%F:"-->
+        <!--                                android:textAlignment="textEnd"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/bo_por_f_textView"-->
+        <!--                                android:layout_width="wrap_content"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <TextView-->
+        <!--                            android:id="@+id/fechaTextView"-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="TextView"-->
+        <!--                            android:textColor="#3F51B5" />-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                </androidx.cardview.widget.CardView>-->
+
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <androidx.cardview.widget.CardView-->
+        <!--                    android:layout_width="291dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:elevation="10dp"-->
+        <!--                    app:cardCornerRadius="10dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="match_parent"-->
+        <!--                        android:orientation="vertical"-->
+        <!--                        android:padding="15dp">-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="COCHABAMBA"-->
+        <!--                            android:textColor="#3F51B5"-->
+        <!--                            android:textSize="20sp"-->
+        <!--                            android:textStyle="bold" />-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="match_parent"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Confirmados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/cbCasosTextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Recuperados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/cbrectextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="23dp"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Fallecidos:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/cbmuertestextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                </androidx.cardview.widget.CardView>-->
+
+        <!--                <androidx.cardview.widget.CardView-->
+        <!--                    android:layout_width="291dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:elevation="10dp"-->
+        <!--                    app:cardCornerRadius="10dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="match_parent"-->
+        <!--                        android:orientation="vertical"-->
+        <!--                        android:padding="15dp">-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="LA PAZ"-->
+        <!--                            android:textColor="#3F51B5"-->
+        <!--                            android:textSize="20sp"-->
+        <!--                            android:textStyle="bold" />-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="match_parent"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Confirmados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/lpCasosTextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Recuperados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/lprectextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="23dp"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Fallecidos:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/lpmuertestextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                </androidx.cardview.widget.CardView>-->
+
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <androidx.cardview.widget.CardView-->
+        <!--                    android:layout_width="291dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:elevation="10dp"-->
+        <!--                    app:cardCornerRadius="10dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="match_parent"-->
+        <!--                        android:orientation="vertical"-->
+        <!--                        android:padding="15dp">-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="BENI"-->
+        <!--                            android:textColor="#3F51B5"-->
+        <!--                            android:textSize="20sp"-->
+        <!--                            android:textStyle="bold" />-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="match_parent"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Confirmados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/bnCasosTextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Recuperados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/bnrectextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="23dp"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Fallecidos:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/bnmuertestextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                </androidx.cardview.widget.CardView>-->
+
+        <!--                <androidx.cardview.widget.CardView-->
+        <!--                    android:layout_width="291dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:elevation="10dp"-->
+        <!--                    app:cardCornerRadius="10dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="match_parent"-->
+        <!--                        android:orientation="vertical"-->
+        <!--                        android:padding="15dp">-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="ORURO"-->
+        <!--                            android:textColor="#3F51B5"-->
+        <!--                            android:textSize="20sp"-->
+        <!--                            android:textStyle="bold" />-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="match_parent"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Confirmados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/orCasosTextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Recuperados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/orrectextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="23dp"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Fallecidos:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/ormuertestextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                </androidx.cardview.widget.CardView>-->
+
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <androidx.cardview.widget.CardView-->
+        <!--                    android:layout_width="291dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:elevation="10dp"-->
+        <!--                    app:cardCornerRadius="10dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="match_parent"-->
+        <!--                        android:orientation="vertical"-->
+        <!--                        android:padding="15dp">-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="SUCRE"-->
+        <!--                            android:textColor="#3F51B5"-->
+        <!--                            android:textSize="20sp"-->
+        <!--                            android:textStyle="bold" />-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="match_parent"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Confirmados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/scCasosTextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Recuperados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/screctextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="23dp"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Fallecidos:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/scmuertestextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                </androidx.cardview.widget.CardView>-->
+
+        <!--                <androidx.cardview.widget.CardView-->
+        <!--                    android:layout_width="291dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:elevation="10dp"-->
+        <!--                    app:cardCornerRadius="10dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="match_parent"-->
+        <!--                        android:orientation="vertical"-->
+        <!--                        android:padding="15dp">-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="TARIJA"-->
+        <!--                            android:textColor="#3F51B5"-->
+        <!--                            android:textSize="20sp"-->
+        <!--                            android:textStyle="bold" />-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="match_parent"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Confirmados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/tjCasosTextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Recuperados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/tjrectextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="23dp"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Fallecidos:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/tjmuertestextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                </androidx.cardview.widget.CardView>-->
+
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <androidx.cardview.widget.CardView-->
+        <!--                    android:layout_width="291dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:elevation="10dp"-->
+        <!--                    app:cardCornerRadius="10dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="match_parent"-->
+        <!--                        android:orientation="vertical"-->
+        <!--                        android:padding="15dp">-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="POTOSI"-->
+        <!--                            android:textColor="#3F51B5"-->
+        <!--                            android:textSize="20sp"-->
+        <!--                            android:textStyle="bold" />-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="match_parent"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Confirmados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/poCasosTextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Recuperados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/porectextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="23dp"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Fallecidos:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/pomuertestextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                </androidx.cardview.widget.CardView>-->
+
+        <!--                <androidx.cardview.widget.CardView-->
+        <!--                    android:layout_width="291dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:elevation="10dp"-->
+        <!--                    app:cardCornerRadius="10dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="match_parent"-->
+        <!--                        android:orientation="vertical"-->
+        <!--                        android:padding="15dp">-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="PANDO"-->
+        <!--                            android:textColor="#3F51B5"-->
+        <!--                            android:textSize="20sp"-->
+        <!--                            android:textStyle="bold" />-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="match_parent"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Confirmados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/pnCasosTextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Recuperados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/pnrectextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="23dp"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="40dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Fallecidos:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/pnmuertestextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                </androidx.cardview.widget.CardView>-->
+
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="205dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <androidx.cardview.widget.CardView-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:elevation="10dp"-->
+        <!--                    app:cardCornerRadius="10dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="match_parent"-->
+        <!--                        android:orientation="vertical"-->
+        <!--                        android:padding="15dp"-->
+        <!--                        android:textAlignment="center">-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:text="SANTA CRUZ"-->
+        <!--                            android:textAlignment="center"-->
+        <!--                            android:textColor="#3F51B5"-->
+        <!--                            android:textSize="20sp"-->
+        <!--                            android:textStyle="bold" />-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="match_parent"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="20dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Confirmados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/sczCasosTextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="20dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Recuperados:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/sczrectextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                        <LinearLayout-->
+        <!--                            android:layout_width="match_parent"-->
+        <!--                            android:layout_height="23dp"-->
+        <!--                            android:orientation="horizontal">-->
+
+        <!--                            <TextView-->
+        <!--                                android:layout_width="20dp"-->
+        <!--                                android:layout_height="match_parent"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="Fallecidos:"-->
+        <!--                                android:textStyle="bold" />-->
+
+        <!--                            <TextView-->
+        <!--                                android:id="@+id/sczmuertestextView"-->
+        <!--                                android:layout_width="3dp"-->
+        <!--                                android:layout_height="wrap_content"-->
+        <!--                                android:layout_weight="1"-->
+        <!--                                android:text="TextView" />-->
+        <!--                        </LinearLayout>-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                </androidx.cardview.widget.CardView>-->
+
+        <!--            </LinearLayout>-->
+
+
+                </LinearLayout>
     </ScrollView>
 
 </LinearLayout>
