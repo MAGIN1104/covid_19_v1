@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "306742078510",
+    "firebase_url": "https://peoplecovid.firebaseio.com",
+    "project_id": "peoplecovid",
+    "storage_bucket": "peoplecovid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306742078510:android:af5ed8a1059e21a94f83bf",
+        "android_client_info": {
+          "package_name": "com.example.cov_19_autotest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306742078510-9afgm1g93vufp1vc7akiqji9fqp2s7pj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cov_19_autotest",
+            "certificate_hash": "36ae65075e1d5b3bef0854f5a7caa468755aaeb5"
+          }
+        },
+        {
+          "client_id": "306742078510-to0iu1uhnp50kva4o32iv4k58e07tr17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMz-VSN1ov1fOek1CD4GiVKSGw9wSIihg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306742078510-to0iu1uhnp50kva4o32iv4k58e07tr17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

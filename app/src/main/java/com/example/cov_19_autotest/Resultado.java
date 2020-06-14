@@ -17,6 +17,8 @@ public class Resultado extends AppCompatActivity {
         recibirDatos();
 
     }
+    //NECESITA RECIBIR DATOS DEL ANTERIOR ACTIVITY AUN NO ESTA LISTO CUANDO REVIBA LOS DATOS
+    //NO GENERARA PROBLEMAS
     private void recibirDatos()
     {
         Bundle extras  = getIntent().getExtras();

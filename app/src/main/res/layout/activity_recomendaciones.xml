@@ -1,59 +1,295 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Recomendaciones">
-
     <ScrollView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
             android:orientation="vertical">
 
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="299dp"
+                android:layout_height="195dp"
+                app:srcCompat="@drawable/como" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="365dp"
+                android:layout_height="117dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Protéjase a sí mismo y a quienes lo rodean informándose y tomando las precauciones adecuadas. Siga los consejos de su organismo de salud pública local."
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="18dp"
+
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="390dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:background="#0FFFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="203dp"
+                    android:layout_height="117dp"
+                    android:text="AYUDA A FRENAR
+EL CORONAVIRUS"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#5C80BD"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="right"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20dp"
+                    app:autoSizeTextType="uniform" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:layout_gravity="bottom"
+                app:srcCompat="@drawable/pp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="363dp"
+                android:layout_height="99dp"
+                android:layout_gravity="center"
+                android:text=" Para evitar la propagación de la COVID-19:"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="392dp"
+                android:layout_height="99dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="    1. Lávese las manos con frecuencia. Use agua y jabón o un desinfectante de manos a base de alcohol."
+                android:textColor="#84cbcb"
+                android:textStyle="bold"
+                android:textSize="20dp" />
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
-                android:layout_height="910dp"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/img1" />
+                android:layout_height="188dp"
+                app:srcCompat="@drawable/segundos" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="392dp"
+                android:layout_height="99dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="30dp"
+                android:text="¿Por qué? Lavarse las manos con un desinfectante a base de alcohol o con agua y jabón mata el virus si este está en sus manos."
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="392dp"
+                android:layout_height="99dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="    2. Manténgase a una distancia segura de cualquier persona que tosa o estornude.
+No se toque los ojos, la nariz o la boca."
+                android:textColor="#5c80bd"
+                android:textSize="20dp" />
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                app:srcCompat="@drawable/dis" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="392dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="30dp"
+                android:text="¿Por qué? Cuando alguien con una enfermedad respiratoria, como la infección por el 2019-nCoV, tose o estornuda, proyecta pequeñas gotículas que contienen el virus. Si está demasiado cerca, puede inhalar el virus."
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="392dp"
+                android:layout_height="67dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="    3. No se toque los ojos, la nariz o la boca."
+                android:textColor="#84cbcb"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/imageView8"
                 android:layout_width="match_parent"
-                android:layout_height="910dp"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/img2" />
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/ojos" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="392dp"
+                android:layout_height="151dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="30dp"
+                android:text="¿Por qué? Las manos tocan muchas superficies que pueden estar contaminadas con el virus. Si se toca los ojos, la nariz o la boca con las manos contaminadas, puedes transferir el virus de la superficie a si mismo."
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="392dp"
+                android:layout_height="99dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#5c80bd"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="    4. Cuando tosa o estornude, cúbrase la nariz y la boca con el codo flexionado o con un pañuelo." />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/imageView9"
                 android:layout_width="match_parent"
-                android:layout_height="910dp"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/img3" />
+                android:layout_height="188dp"
+                app:srcCompat="@drawable/cubrir" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="392dp"
+                android:layout_height="156dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="30dp"
+                android:text="¿Por qué? Al cubrir la boca y la nariz durante la tos o el estornudo se evita la propagación de gérmenes y virus. Si usted estornuda o tose cubriéndose con las manos puede contaminar los objetos o las personas a los que toque."
+                android:textColor="@android:color/background_dark"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="392dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="    5. Quédese en casa si se siente mal."
+                android:textColor="#84cbcb"
+                android:textSize="20dp" />
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/imageView10"
                 android:layout_width="match_parent"
-                android:layout_height="910dp"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/img4" />
+                android:layout_height="157dp"
+                app:srcCompat="@drawable/casa" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="392dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="30dp"
+                android:text="¿Por qué? Al cubrir la boca y la nariz durante la tos o el estornudo se evita la propagación de gérmenes y virus. Si usted estornuda o tose cubriéndose con las manos puede contaminar los objetos o las personas a los que toque."
+                android:textColor="@android:color/background_dark"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="392dp"
+                android:layout_height="104dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="    6. Si tiene fiebre, tos y dificultad para respirar, solicite atención médica. Llame con antelación."
+                android:textColor="#5c80bd"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView11"
                 android:layout_width="match_parent"
-                android:layout_height="910dp"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/img5" />
+                android:layout_height="188dp"
+                app:srcCompat="@drawable/llamar" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="392dp"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp"
+                android:layout_marginVertical="30dp"
+                android:textAlignment="center"
+                android:text="¿Por qué? Siempre que tenga fiebre, tos y dificultad para respirar, es importante que busque atención médica de inmediato, ya que dichos síntomas pueden deberse a una infección respiratoria o a otra afección grave. Los síntomas respiratorios con fiebre pueden tener diversas causas, y dependiendo de sus antecedentes de viajes y circunstancias personales, el 2019-nCoV podría ser una de ellas." />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="392dp"
+                android:layout_height="104dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="    7.Manténgase informado y siga las recomendaciones de los profesionales sanitarios"
+                android:textColor="#84cbcb"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                app:srcCompat="@drawable/ul" />
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="392dp"
+                android:layout_height="450dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp"
+                android:layout_marginVertical="30dp"
+                android:textAlignment="center"
+                android:text="Manténgase informado sobre las últimas novedades en relación con la COVID-19. Siga los consejos de su dispensador de atención de salud, de las autoridades sanitarias pertinentes a nivel nacional y local o de su empleador sobre la forma de protegerse a sí mismo y a los demás ante la COVID-19.
+¿Por qué? Las autoridades nacionales y locales dispondrán de la información más actualizada acerca de si la COVID-19 se está propagando en su zona. Son los interlocutores más indicados para dar consejos sobre las medidas que la población de su zona debe adoptar para protegerse. " />
 
         </LinearLayout>
+
     </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
+
+
+
+
+

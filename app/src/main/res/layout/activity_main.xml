@@ -1,65 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/im1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    android:background="#ffffff"
     tools:context=".MainActivity" >
 
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="145dp"
-        android:layout_height="133dp"
-        android:onClick="Opcion4"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658"
-        app:srcCompat="@drawable/im5" />
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="220dp"
+        android:layout_height="293dp"
+        android:gravity="center"
+        android:padding="30dp"
+        app:srcCompat="@drawable/people" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="136dp"
-        android:layout_height="132dp"
-        android:onClick="Opcion3"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658"
-        app:srcCompat="@drawable/im4" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="136dp"
-        android:layout_height="137dp"
-        android:onClick="Opcion2"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.741"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.321"
-        app:srcCompat="@drawable/im3" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="132dp"
-        android:layout_height="137dp"
+    <Button
+        app:icon="@drawable/flecha"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/animacion"
         android:onClick="Opcion1"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.258"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.322"
-        app:srcCompat="@drawable/im2" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="Datos Departamentales"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button4"
+        app:icon="@drawable/salud"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/animacion2"
+        android:onClick="Opcion2"
+        android:text="AUTO - TEST"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:onClick="Opcion3"
+        app:icon="@drawable/recom"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/animacion"
+        android:text="Recomendaciones" />
+
+    <Button
+        android:id="@+id/button6"
+        android:onClick="Opcion4"
+        app:icon="@drawable/phone"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/animacion2"
+        android:text="EMERGENCIAS" />
+
+
+
+</LinearLayout>

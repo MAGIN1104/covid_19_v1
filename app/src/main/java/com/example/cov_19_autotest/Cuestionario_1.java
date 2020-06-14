@@ -3,8 +3,10 @@ package com.example.cov_19_autotest;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.ScrollView;
@@ -19,10 +21,16 @@ public class Cuestionario_1 extends AppCompatActivity {
     ScrollView contenedor;
     TextView puntos;
     RadioButton si,no,nose;
+    private Button btn;
+    private AnimationDrawable animacion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuestionario_1);
+        this.btn=findViewById(R.id.button);
+        animacion=(AnimationDrawable)btn.getBackground();
+        animacion.setEnterFadeDuration(2300);
+        animacion.setExitFadeDuration(2300);
         p1=(CheckBox)findViewById(R.id.checkBox2);
         p2=(CheckBox)findViewById(R.id.checkBox3);
         p3=(CheckBox)findViewById(R.id.checkBox4);
@@ -43,20 +51,32 @@ public class Cuestionario_1 extends AppCompatActivity {
         no=(RadioButton)findViewById(R.id.rbno);
         nose=(RadioButton)findViewById(R.id.rbnose);
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if(animacion!=null && !animacion.isRunning()) animacion.start();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if(animacion!=null && animacion.isRunning()) {animacion.stop();}
+    }
 
     public void finalizar(View view)
     {
         respuesta();
-        Intent i = new Intent(this,Resultado.class);
+        Intent i = new Intent(this,Registro.class);
         i.putExtra("vdato",dato);
         startActivity(i);
         //respuesta();
 
 
     }
+
     private void respuesta()
     {
-
+        //convulsiones
         if(p1.isChecked())
         {
             preg1=2;
@@ -65,6 +85,7 @@ public class Cuestionario_1 extends AppCompatActivity {
         {
             preg1=0;
         }
+        //escurrimiento nasal
         if(p2.isChecked())
         {
             preg2=2;
@@ -73,6 +94,7 @@ public class Cuestionario_1 extends AppCompatActivity {
         {
             preg2=0;
         }
+        //dolor de estomago
         if(p3.isChecked())
         {
             preg3=2;
@@ -81,30 +103,34 @@ public class Cuestionario_1 extends AppCompatActivity {
         {
             preg3=0;
         }
+        //escalofrios
         if(p4.isChecked())
         {
-            preg4=2;
+            preg4=5;
         }
         else
         {
             preg4=0;
         }
+        //dolor de garganta
         if(p5.isChecked())
         {
-            preg5=2;
+            preg5=5;
         }
         else
         {
             preg5=0;
         }
+        //malestar general
         if(p6.isChecked())
         {
-            preg6=2;
+            preg6=5;
         }
         else
         {
             preg6=0;
         }
+        //vomito
         if(p7.isChecked())
         {
             pregi7=2;
@@ -113,57 +139,64 @@ public class Cuestionario_1 extends AppCompatActivity {
         {
             pregi7=0;
         }
+        //diarrea
         if(p8.isChecked())
         {
-            preg8=2;
+            preg8=5;
         }
         else
         {
             preg8=0;
         }
+        //irritabilidad
         if(p9.isChecked())
         {
-            preg9=2;
+            preg9=5;
         }
         else
         {
             preg9=0;
         }
+        //dolor de pecho
         if(p10.isChecked())
         {
-            preg10=2;
+            preg10=7;
         }
         else
         {
             preg10=0;
         }
+        //tos seca
         if(p11.isChecked())
         {
-            preg11=2;
+            preg11=7;
         }
         else
         {
             preg11=0;
         }
+        //fiebre mayor a 38°
         if(p12.isChecked())
         {
-            preg12=2;
+            preg12=7;
         }
         else
         {
             preg12=0;
         }
+        //dificultad para respirar
         if(p13.isChecked())
         {
-            preg13=2;
+            preg13=7;
         }
         else
         {
             preg13=0;
         }
+        //dolor de cabeza
         if(p14.isChecked())
         {
-            preg14=2;
+            preg14=5;
         }
         else
         {
@@ -175,9 +208,8 @@ public class Cuestionario_1 extends AppCompatActivity {
         if(si.isChecked() == false && no.isChecked()==false&&nose.isChecked()==false)
         {
             Toast.makeText(this,"Responda la ultima pregunta por favor",Toast.LENGTH_SHORT).show();
-
         }
-        if(puntuaje<=30)
+        if(puntuaje>25)
         {
             if(si.isChecked())
             {
@@ -198,7 +230,7 @@ public class Cuestionario_1 extends AppCompatActivity {
 
             }
         }
-        if(puntuaje<20)
+        if(puntuaje<25)
         {
             if(si.isChecked())
             {
@@ -217,7 +249,7 @@ public class Cuestionario_1 extends AppCompatActivity {
                 dato= "No es un caso sospechoso";
             }
         }
-        if(puntuaje==20)
+        if(puntuaje==25)
         {
             if(si.isChecked())
             {
@@ -236,4 +268,5 @@ public class Cuestionario_1 extends AppCompatActivity {
             }
         }
     }
+
 }

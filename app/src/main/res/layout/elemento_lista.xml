@@ -17,21 +17,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="128dp" />
+        app:layout_constraintGuide_begin="160dp" />
 
     <TextView
         android:id="@+id/id_nombre_lugar"
-        android:layout_width="120dp"
-        android:layout_height="42dp"
+        android:layout_width="165dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="40dp"
         android:text="TextView"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.583" />
+        app:layout_constraintVertical_bias="0.6" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -42,8 +43,10 @@
 
     <TextView
         android:id="@+id/num_textView"
-        android:layout_width="187dp"
+        android:layout_width="match_parent"
         android:layout_height="28dp"
+        android:layout_marginRight="50dp"
+        android:textAlignment="viewEnd"
         android:text="TextView"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
